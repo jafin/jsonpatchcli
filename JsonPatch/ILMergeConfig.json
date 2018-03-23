@@ -1,0 +1,42 @@
+﻿{
+  "General": {
+    "OutputFile": null,
+    "TargetPlatform": null,
+    "KeyFile": null,
+    "AlternativeILMergePath": "utils\\ilmerge.exe",
+    "InputAssemblies": [
+      "$(TargetDir)Newtonsoft.Json.dll",
+      "$(TargetDir)Marvin.JsonPatch.dll",
+      "$(TargetDir)CommandLine.dll",
+      "$(TargetDir)System.Runtime.dll",
+      "$(TargetDir)System.Runtime.Extensions.dll",
+      "$(TargetDir)System.Reflection.dll",
+      "$(TargetDir)System.Reflection.TypeExtensions.dll",
+      "$(TargetDir)System.Linq.dll",
+      "$(TargetDir)System.IO.dll",
+      "$(TargetDir)System.Console.dll"
+    ]
+  },
+  "Advanced": {
+    "AllowDuplicateType": null,
+    "AllowMultipleAssemblyLevelAttributes": false,
+    "AllowWildCards": false,
+    "AllowZeroPeKind": false,
+    "AttributeFile": null,
+    "Closed": false,
+    "CopyAttributes": false,
+    "DebugInfo": true,
+    "DelaySign": false,
+    "ExcludeFile": "",
+    "FileAlignment": 512,
+    "Internalize": false,
+    "Log": false,
+    "LogFile": null,
+    "PublicKeyTokens": true,
+    "SearchDirectories": [],
+    "TargetKind": null,
+    "UnionMerge": false,
+    "Version": null,
+    "XmlDocumentation": false
+  }
+}
